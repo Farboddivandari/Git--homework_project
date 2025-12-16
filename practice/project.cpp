@@ -35,4 +35,24 @@ long long KMM(long long x, long long y)
 
 int main()
 {
+  cout<<"Hello"<<endl;
+  cout<< "please choose a projet:"<<endl<<"1.Simple calculator"<<endl<<"2.Root finder of first and second degree equations"<<endl<<"3.Advanced calculator"<<endl;
+  int choice;
+cin>>choice;
+switch (choice) {
+case 1 : {break;}
+case 2:{break;}
+case 3:{ cout<<"please enter two numbers for searching BMM"<<endl;
+int x,y;
+cin>>x>>y;
+cout<<"please enter two numbers for searching KMM"<<endl;
+int a,b;
+cin>>a>>b;
+cout<<"please enter two numbers for searching C(k,n)"<<endl;
+int n,k;
+cin>>k>>n;
+cout<< "BMM : "<< BMM(x,y)<<endl<<"KMM : "<<KMM(a,b) <<endl<<"C(k,n) : "<<entekhab(k,n);
+break;
+}
+}
 }
