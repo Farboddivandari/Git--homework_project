@@ -1,0 +1,29 @@
+جواب سوال چهارم
+    محل ذخیره سازی
+• 	Local Repository: روی کامپیوتر شخصی شما
+• 	Remote Repository:GitHub,GitLab,bitbucket روی سرور یا سرویس ابری مثل
+•	اجزای اصلی
+• 	Local Repository: Working Directory، Staging Area و پوشه های  .git شامل
+• 	Remote Repository:هاcommit  نسخه مرکزی پروژه با تاریخچه 
+• 	دسترسی
+• 	Local Repository: فقط شما دسترسی دارید و آفلاین هم کار می‌کند
+• 	Remote Repository: همه اعضای تیم می‌توانند دسترسی داشته باشند
+• 	کاربرد اصلی
+• 	Local Repository: های شخصیcommit تست و توسعه و انجام 
+• 	Remote Repository: اشتراک‌گذاری کد، همکاری تیمی و پشتیبان‌گیری
+•      دستورات مهم
+•      Local Repository: git commit, git log, git branch
+•      Remote Repository: git push, git pull, git fetch
+•      وابستگی به اینترنت
+•      Local Repository: نیازی به اینترنت ندارد
+•      Remote Repository: برای همگام‌سازی نیاز به اینترنت دارد
+
+جواب سوال پنجم
+این دستور وضعیت فایل‌ها را نشان می‌دهد؛
+اینکه کدام فایل‌ها تغییر کرده‌اند، 
+کدام‌ کامیت ها آماده  هستند و شاخه فعلی چیست
+
+جواب سوال ششم
+زیرا شاخه اصلی نسخه پایدار پروژه است 
+و تغییر مستقیم روی آن ممکن است باعث بروز خطا شود.
+بهتر است تغییرات ابتدا روی یک شاخه جداگانه انجام شوند و پس از بررسی به شاخه اصلی منتقل شوند.
