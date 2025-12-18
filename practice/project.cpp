@@ -57,7 +57,31 @@ int main()
     }
     case 2:
     {
+        int n;
+        cout << "Please specify the type of equation." << endl
+             << "1.First degree equation" << endl
+             << "2.Quadratic equation" << endl;
+        cin >> n;
+        switch (n)
+        {
+        case 1:
+        {
+            float a, b;
+            cout << "Please enter the coefficients of the equation." << endl;
+            cin >> a >> b;
+            cout << DegreeOne(a, b);
+        }
         break;
+
+        case 2:
+        {
+            float a, b, c;
+            cout << "Please enter the coefficients of the equation." << endl;
+            cin >> a >> b >> c;
+            cout << DegreeTwo(a, b, c);
+        }
+        break;
+        }
     }
     case 3:
     {
